@@ -15,4 +15,10 @@ describe('Bank Account Test Suite', function() {
    expect(cleverloot.balance).toEqual(100);
   });
 
+  it('decreases balance by 50 when withdrawing 50', function() {
+    cleverloot.deposit(100)
+    cleverloot.withdraw(50)
+    expect(cleverloot.balance).toEqual(50);
+  })
+
 });
