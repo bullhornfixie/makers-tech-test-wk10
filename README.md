@@ -28,4 +28,9 @@ account.statement();
 
 => 'date || credit || debit || balance\n21/10/2019 || || 10.00 || -10.00\n'
 ```
+### Planning 
 
+In building this app my first step was to consider the core fuctionality. 
+* Deposit money (increase balance)
+* Withdraw money (decrease balance)
+* Print account statement (show balance)
