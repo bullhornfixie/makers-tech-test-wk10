@@ -4,11 +4,11 @@ The purpose of this bank script is to print out a statement for a user, given th
   
 ### How It Works
 
-Accont holder makes a deposit of 1000 on 10-01-2021 
-And a deposit of 2000 on 13-01-2021  
-And a withdrawal of 500 on 14-01-2021
-When she prints her bank statement  
-Then she would see:  
+* Account holder makes a deposit of 1000 on 10-01-2021 
+* And a deposit of 2000 on 13-01-2021  
+* And a withdrawal of 500 on 14-01-2021
+* When she prints her bank statement  
+* Then she would see:  
 
 ```
 date       || credit  || debit  || balance  
