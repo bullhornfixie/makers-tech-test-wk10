@@ -2,7 +2,7 @@
 
 The purpose of this bank script is to print out a statement for a user, given their activity, like a real bank!  
   
-**For Example**
+### How It Works
 
 Accont holder makes a deposit of 1000 on 10-01-2021 
 And a deposit of 2000 on 13-01-2021  
