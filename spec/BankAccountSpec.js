@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 describe('Bank Account Test Suite', function() {
   let cleverloot;
@@ -6,7 +6,7 @@ describe('Bank Account Test Suite', function() {
   beforeEach(function() { cleverloot = new BankAccount();
   });
 
-  it('account holder has a balance of 0 when opening a new account', function() {
+  it('has a balance of 0 when opening a new account', function() {
     expect(cleverloot.balance).toEqual(0);
   });
 
