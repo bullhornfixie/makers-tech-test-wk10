@@ -44,7 +44,7 @@ I built a prototype of the program with all the core functionality working and t
 challenge was going to be formatting the bank statement to show all the transactions with a header
 whilst trying to keep the **code clean**. 
 
-![Alt text](images/Node-JS-screenshot.png?raw=true)
+![Alt text](images/Node-JS-screenshot2.png?raw=true)
 
 ### Design 
 
