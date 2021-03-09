@@ -9,12 +9,12 @@ class BankAccount {
 
 BankAccount.prototype.deposit = function(amount) {
   var update = this.balance += amount
-  this.history.push([this.getDateToday(), 'debit', amount, 'balance', update])
+  this.history.push([this.getDateToday(), 'credit', amount, 'balance', update])
 }
 
 BankAccount.prototype.withdraw = function(amount) {
   var update = this.balance -= amount
-  this.history.push([this.getDateToday(), 'credit', amount, 'balance', update])
+  this.history.push([this.getDateToday(), 'debit', amount, 'balance', update])
 }
 
 BankAccount.prototype.getDateToday = function () {
