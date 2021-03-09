@@ -43,4 +43,4 @@ JavaScript than Ruby and wanted to improve my syntax skills.
 I built a prototype of the program with all the core functionality working and tested. The greatest
 challenge was going to be formatting the bank statement to show all the transactions with a header.
 
-![Alt text](/Node-JS-screenshot.png?raw=true)
+![Alt text](images/Node-JS-screenshot.png?raw=true)
