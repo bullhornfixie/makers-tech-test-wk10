@@ -21,10 +21,10 @@ date       || credit  || debit  || balance
 
 My approach was a 4 stage development process:
 
-* 1) Ideation
-* 2) Design stage
-* 3) Development 
-* 4) Deployment 
+1. Ideation
+2. Design stage
+3. Development 
+4. Deployment 
 
 ### Ideation 
 
@@ -36,8 +36,8 @@ In architecturing the business logic, my starting point was to define the input 
 | Withdraw money | Decrease balance |
 | Statement      | Show balance     |
 
-I chose to build the backend with Node.JS with a static web page to 'demonstrate' the program in
-it's simplest form and enable 'interaction' via Chrome Console. I am also less comfortable with 
+I chose to build the backend with Node.JS with a static web page to **demonstrate** the program in
+it's simplest form and enable **interaction** via Chrome Console. I am also less comfortable with 
 JavaScript than Ruby and wanted to improve my syntax skills. 
 
 I built a prototype of the program with all the core functionality working and tested. The greatest
