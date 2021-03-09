@@ -17,20 +17,30 @@ date       || credit  || debit  || balance
 10/01/2021 || 1000.00 ||        || 1000.00  
 ```
 
-### Running
-
-You can run this in Chrome console, using the functions defined in BankAccount.js. For example:
-
-```
-account = new BankAccount();
-account.withdraw(10);
-account.statement();
-
-=> 'date || credit || debit || balance\n21/10/2019 || || 10.00 || -10.00\n'
-```
 ### Planning 
 
-In building this app my first step was to consider the core fuctionality. 
-* Deposit money (increase balance)
-* Withdraw money (decrease balance)
-* Print account statement (show balance)
+My approach was a 4 stage development process:
+
+* 1) Ideation
+* 2) Design stage
+* 3) Development 
+* 4) Deployment 
+
+### Ideation 
+
+In architecturing the business logic, my starting point was to define the input and output:
+
+| Input          | Output           |
+| ---------------|----------------- |
+| Deposit money  | Increase balance |
+| Withdraw money | Decrease balance |
+| Statement      | Show balance     |
+
+I chose to build the backend with Node.JS with a static web page to 'demonstrate' the program in
+it's simplest form and enable 'interaction' via Chrome Console. I am also less comfortable with 
+JavaScript than Ruby and wanted to improve my syntax skills. 
+
+I built a prototype of the program with all the core functionality working and tested. The greatest
+challenge was going to be formatting the bank statement to show all the transactions with a header.
+
+![Alt text](/Node-JS-screenshot.png?raw=true)

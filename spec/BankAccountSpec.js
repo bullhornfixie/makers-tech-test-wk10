@@ -21,4 +21,8 @@ describe('Bank Account Test Suite', function() {
     expect(cleverloot.balance).toEqual(50);
   })
 
+  it('gives the current date', function() {
+    expect(cleverloot.getDateToday()).toContain('2021')
+  })
+
 });
