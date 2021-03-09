@@ -8,13 +8,15 @@ class BankAccount {
 };
 
 BankAccount.prototype.deposit = function(amount) {
+  var toFloat = amount.toFixed(2)
   var update = this.balance += amount
-  this.history.push([`${this.getDateToday()} || ${amount} || 'nil' || ${update}\n`])
+  this.history.push([`${this.getDateToday()} || ${toFloat} ||  'nil' || ${update.toFixed(2)}\n`])
 }
 
 BankAccount.prototype.withdraw = function(amount) {
+  var toFloat = amount.toFixed(2)
   var update = this.balance -= amount
-  this.history.push([`${this.getDateToday()} || 'nil' || ${amount} || ${update}\n`])
+  this.history.push([`${this.getDateToday()} ||  'nil' || ${toFloat} || ${update.toFixed(2)}\n`])
 }
 
 BankAccount.prototype.getDateToday = function () {
@@ -28,9 +30,14 @@ BankAccount.prototype.getDateToday = function () {
 }
 
 BankAccount.prototype.statement = function () {
-  var header = 'date       || credit || debit || balance'
+  var header = 'date       || credit || debit  || balance'
   var arr = this.history.reverse()
-  console.log(header + '\n' + arr.join(''))
+  if (arr.length > 0) {
+    console.log(header + '\n' + arr.join(''))
+  } else {
+    this.history.push([`${this.getDateToday()} ||  'nil' ||  'nil' || ${Number(0).toFixed(2)}\n`])
+    console.log(header + '\n' + arr.join(''))
+  }
 }
 
 
