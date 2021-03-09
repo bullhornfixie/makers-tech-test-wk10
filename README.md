@@ -22,7 +22,7 @@ date       || credit  || debit  || balance
 My approach was a 4 stage development process:
 
 1. Ideation
-2. Design stage
+2. Design 
 3. Development 
 4. Deployment 
 
@@ -41,6 +41,16 @@ it's simplest form and enable **interaction** via Chrome Console. I am also less
 JavaScript than Ruby and wanted to improve my syntax skills. 
 
 I built a prototype of the program with all the core functionality working and tested. The greatest
-challenge was going to be formatting the bank statement to show all the transactions with a header.
+challenge was going to be formatting the bank statement to show all the transactions with a header
+whilst trying to keep the **code clean**. 
 
 ![Alt text](images/Node-JS-screenshot.png?raw=true)
+
+### Design 
+
+I created a **wireframe** early on as this helps me think about **edge cases**, what other **features** can 
+be introduced later on, and how many **pages** are required. 
+
+![Alt text](images/Wireframe.png?raw=true)
+
+
