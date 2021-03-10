@@ -4,14 +4,14 @@ The purpose of this bank script is to print out a statement for a user, given th
   
 ## Specification
 
-### Requirements
+#### Requirements
 
 * You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
 * Deposits, withdrawal.
 * Account statement (date, amount, balance) printing.
 * Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
-### Acceptance Crietria 
+#### Acceptance Crietria 
 
 * Account holder makes a deposit of 1000 on 10-01-2021 
 * And a deposit of 2000 on 13-01-2021  
@@ -64,7 +64,7 @@ be introduced later on, and how many **pages** are required.
 
 ## Development 
 
-### User Stories 
+#### User Stories 
 I have created these user stories from the above specifications.
 
 ```
@@ -85,11 +85,11 @@ so I can keep track of money I can spend,
 I want to see the total balance of my account. 
 ```
 
-### Edge Cases 
+#### Edge Cases 
 * What happens when the bank account goes below 0? Is there an overdraft limit?
 * Is there a maximum top up limit in a single day?
 
-### Challenges 
+#### Challenges 
 * TDD on the bank statement which includes various fields 
 * Formatting the bank statement columns and creating white space so all columns align 
 * Keeping the code clean when incorporating edge cases to methods 
