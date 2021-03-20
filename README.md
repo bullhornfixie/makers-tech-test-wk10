@@ -126,7 +126,12 @@ date       || credit || debit  || balance
 10/03/2021 || 100.00 ||        || 200.00
 10/03/2021 || 100.00 ||        || 100.00
 ```
+## Review From Makers On My Tech Test 
 
+* Super neat implementation of the printing acceptance criteria. Really tidy!
+* Really great readme, I enjoyed reading it! You shared some really great context here, and the instructions on how to run it were clear.
+* There’s a bit of a hint in the self-assessment form, which is something along the lines of: when you look at your class and think, its responsibility is, is that followed by an ‘and’? In this case, your class has a couple of responsibilities, including handling transactions (deposit/withdrawal), getting the date, printing the statement. The value in splitting this up is that we can make our program more easily changeable, and more easily extendable,  when its built in smaller components that each have one clear responsibility.
+* Some unit testing to test the formatting and the statement printing in reverse chronological order would be really useful here.
 
 
 
